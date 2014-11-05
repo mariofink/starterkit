@@ -1,0 +1,26 @@
+Title: Home
+
+----
+
+Text: 
+
+# Hallo!
+Mein Name ist Mario Fink — ich arbeite als Webentwickler & UX Designer in Fulda.
+
+*Konkret heißt das,* ich entwerfe und baue Webseiten die
+
+* leicht zugänglich sind
+* sich auf das Wesentliche konzentrieren
+* den Besucher nicht mit unnötigem Klimm-Bimm verwirren
+
+*Im Detail heißt das,* ich beschäftige mich mit
+
+* HTML5, CSS3 & JavaScript
+* Responsive Design
+* Progressive Enhancement
+* Benutzer-zentriertem Design
+* vielem mehr
+
+Außerdem schreibe ich über das, was ich tue.
+***
+Hier ist mein aktuellster Beitrag:

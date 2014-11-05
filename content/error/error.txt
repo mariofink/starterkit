@@ -1,5 +1,4 @@
-Title: Error
-
+Title: Seite nicht gefunden
 ----
-
-Text: The page has not been found.
+Text: Hier gibt’s leider nichts zu sehen.
+Vielleicht ist ja hier etwas für Dich dabei:

@@ -1,0 +1,50 @@
+@import "vendor/normalize";
+@import "compass/css3";
+@import "compass/typography/links/link-colors";
+
+$primary: rgb(80, 119, 144);
+$primary-light: lighten($primary, 16%);
+$primary-dark: darken($primary, 16%);
+
+$base-font-size: 1.4em;
+$base-text-color: #444;
+
+$respond-to-small: 400px;
+$respond-to-large: 900px;
+
+/*
+apply a natural box layout model to all elements
+http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@import "includes/font";
+@import "includes/typography";
+
+a {
+  // link-colors($normal, $hover, $active, $visited, $focus)
+  @include transition-property(all);
+  @include transition-duration(0.25s);
+  @include link-colors($primary, $primary-light, $primary-light, $primary-dark, $primary-light);
+}
+
+// Sticky footer
+html, body {
+  height: 100%;
+}
+.page-container {
+  background: white;
+  min-height: 100%;
+  padding-bottom: 2em;
+  overflow: hidden;
+  @include box-shadow(0px 4px 15px #181818);
+}
+
+@import "includes/iconfont";
+@import "includes/headerfooter";
+@import "includes/posts";
+@import "includes/highlightjs";

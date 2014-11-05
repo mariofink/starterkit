@@ -1,17 +1,7 @@
-Title: Kirby Starterkit
-
+Title: Mario Fink
 ----
-
-Author: Bastian Allgeier GmbH
-
+Author: Mario Fink
 ----
-
-Description: This is Kirby's Starterkit.
-
+Description: Webentwickler & UX Designer
 ----
-
-Keywords: Kirby, CMS, file-based
-
-----
-
-Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+Keywords: webdesign, frontend, javascript, css3, usability

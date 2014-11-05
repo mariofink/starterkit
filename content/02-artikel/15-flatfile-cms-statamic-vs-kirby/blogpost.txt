@@ -1,0 +1,73 @@
+﻿Title: Content Management ohne Datenbank
+
+----
+
+Description: 
+
+----
+
+Date: 10.04.2013
+
+----
+
+Categories: Werkzeuge
+
+----
+
+Text: ## Die Flatfile Systeme **Kirby** und **Statamic** im Vergleich
+Warum benötigt man für ein CMS eigentlich unbedingt eine Datenbank? Dass es auch anders geht zeigen zahlreiche CMS Alternativen, die auf reinen Klartextdateien basieren (sog. "flat files").
+
+Die Vorteile:
+
+* reduzierte Komplexität
+* Geschwindigkeit — Dateizugriffe sind wesentlich flotter als Datenbankzugriffe
+* kinderleichte Datensicherung
+
+### Kirby vs. Statamic
+[Mark Boulton](https://twitter.com/markboulton) erwähnte auf Twitter, wie begeistert er von [Statamic](http://statamic.com/) ist, eben ein solches Flatfile-CMS. Mein Interesse war geweckt und ich fragte Mal in die Runde ob schon jemand Erfahrungen damit gemacht hatte. Statt Erfahrungsberichten bekam ich einen Hinweis auf [Kirby](http://getkirby.com) – einem CMS aus deutschen Landen, programmiert von [Bastian Allgeier](http://bastianallgeier.com/). 
+
+Das hatte ich mir vor einigen Monaten schon Mal angeschaut und war zwar interessiert, aber nicht überzeugt. Das lag hauptsächlich daran, dass ich zu diesem Zeitpunkt noch wunderbar mit Wordpress zufrieden war. Außerdem dachte ich, dass Kirby gar kein Web-Backend anbieten würde, um auch mal unterwegs schnell einen Text zu schreiben (Bastian war so nett und stellte das richtig).
+
+Da ich in letzter Zeit mehr damit beschäftigt war, Wordpress am Laufen zu halten (Updates, Updates, Updates), als tatsächlich Inhalte zu produzieren, dachte ich es ist der perfekte Zeitpunkt für einen Showdown.
+
+Zu Anfang war Statamic mein Favorit. Besonders das mit einem Responsive-Design ausgestattete Backend machte einen guten ersten Eindruck. Einige Dinge aber bereiteten mir Kopfschmerzen:
+
+* das vor geschweiften Klammern nur so strotzende und dadurch unübersichtliche Templatesystem
+* zu kompliziertes Einbinden von Bildern
+* das Backend ist doch mehr Schein als Sein — **Übersichtlichkeit != Verständlichkeit**
+
+Ein Glücksfall, wie sich heraus stellen sollte. Denn dadurch beschäftigte ich mich noch ein Mal näher mit Kirby — und war begeistert.
+
+Zwar muss man sich schon für Dinge die Finger mit PHP-Code schmutzig machen, die man bei vielen anderen CMSen geschenkt bekommt – dank [sehr präzisen und leicht verständlichen Tutorials](http://getkirby.com/tutorials) ist das aber kein Problem. 
+
+**Im Gegenteil:** man bekommt dadurch das Gefühl, wirklich zu verstehen, was im Hintergrund der Seite passiert. Das vermisste ich bei Wordpress doch gelegentlich.
+
+Diese Seite hier läuft jetzt bereits seit einigen Monaten auf Kirby und ich bin sehr zufrieden. Die Geschwindigkeit ist hervorragend. Der Import der Wordpress-Artikel verlief annähernd reibungslos. Änderungen, sowohl am Inhalt als auch an der Seite, lassen sich schnell und unkompliziert vornehmen. 
+
+Unterm Strich kann ich also nur empfehlen einen Blick auf Kirby zu werfen. Für 30€ endlich wieder Spaß mit der eigenen Seite haben, ist ein fairer Deal.
+
+<hr>
+
+Hier noch eine kleine Gegenüberstellung der beiden Systeme (ohne Anspruch auf Vollständigkeit):
+
+## Kirby
+### Pro
++ sehr leicht verständliches Seitenaufbaukonzept mit Templates und Snippets
++ leicht verständliches Templatesystem (PHP Grundkenntnisse vorrausgesetzt)
++ vorgefertigte Snippets und Plugins für populäre Dienste wie Instagram, Twitter, Dribble, etc.
++ Exzellente Dokumentation und Beispiele
++ Try & Buy
+### Kontra
+- für Standardfunktionen wie ein Blog oder ein RSS-Feed muss bereits eigener Code geschrieben werden (allerdings sehr gut erklärt)
+- Bilder einbinden könnte auch hier etwas selbsterklärender sein
+
+## Statamic
+### Pro:
++ Super-schneller Support via Twitter!
++ Typische Funktionen wie Blog, Feed usw. sind standardmäßig verfügbar
++ Das Web-Backend ist komplett Responsive und so auch gut auf mobilen Endgeräten nutzbar
+### Kontra:
+- sehr gewöhnungsbedürftige Syntax des Templatesystems (selten so viele geschweifte Klammern gesehen!)
+- Dokumentation zwar witzig geschrieben aber teilweise unvollständig
+- Kauf ist Pflicht (Kreditkarte notwendig) 
+- Bilder einbinden extrem kompliziert

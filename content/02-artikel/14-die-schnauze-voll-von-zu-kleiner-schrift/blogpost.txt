@@ -1,0 +1,24 @@
+﻿Title: Die Schnauze voll von zu kleiner Schrift
+
+----
+
+Description: 
+
+----
+
+Date: 06.02.2013
+
+----
+
+Categories: Aktuelles
+
+----
+
+Text: Schöner kurzer Rant von Brent Jackson über zu kleine Schriftgrößen auf Webseiten:
+
+> Sometimes I’m on my computer, and Reader doesn’t work on your web app. I hit CMD + two or three times so that my dyslexic brain can make sense of the musty 14px Helvetica your servers regurgitated all over my screen. Then the layout falls apart. Words start smashing together. Ads bleed into my emails. And I find myself scrolling up, down, left, right, left, right – what in the hell is this? The Konami code? I don’t need 30 extra lives. I want to read your content.
+
+[I’m Sick of Your Tiny, Tiny Type](http://jxnblk.tumblr.com/post/41796724549/im-sick-of-your-tiny-tiny-type)
+
+Wer nun beschämt zu Boden blickt, sollte einen Blick auf meine Präsentation **[»Fünf Gute Vorsätze für Bessere Lesbarkeit«](http://lab.mariofink.de/folien/lesbarkeit/#/)** werfen. 
+Inhalte im Web gut lesbar darzustellen ist nämlich keine Hexerei…

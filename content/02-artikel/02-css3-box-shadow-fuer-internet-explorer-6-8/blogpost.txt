@@ -1,0 +1,72 @@
+title: CSS3 box-shadow für Internet Explorer 6, 7 und 8
+
+----
+
+date: 2010-04-06 16:10
+
+----
+
+text: 
+
+<p class="abstract">So funktioniert CSS3 Schlagschatten(box-shadow) auch im Internet Explorer. Sogar ab Version 6!</p>
+Eine der interessantesten Neuerungen, die CSS3 für Webdesigner mit sich bringt, ist die Möglichkeit beliebigen Elementen einen Schlagschatten zu verpassen. Musste man früher mit Grafiken und HTML-Handständen einen hübschen Schatten basteln, so kann man das nun bequem per CSS erledigen:
+
+<pre><code>.shadow {
+	-moz-box-shadow: 0 0 5px #222; /* Firefox */
+	-webkit-box-shadow: 0 0 5px #222; /* Safari, Chrome, etc. */
+	box-shadow: 0 0 5px #222; /* CSS3 Standard */
+}
+</code></pre>
+
+Wie man sieht, muss man für die verschiedenen Browser noch spezielle Regeln verwenden (sog. Vendor-Prefixes). Diese werden aber wohl in nicht all zu ferner Zukunft überflüssig werden. Daher macht es Sinn, die Definition ohne Prefix ans Ende zu stellen–somit erhält sie die höchste Priorität.
+
+Der oben stehende Code funktioniert in allen modernen Browsern:
+
+* Safari 3+
+* Firefox 3.5+
+* Opera 10.5+
+
+Fehlt noch… der Internet Explorer, der selbst in der aktuellen Version 8 gerade mal so CSS2 auf die Reihe bekommt.
+
+Was zuerst nach einem hoffnunglosen Unterfangen aussieht, kann recht praktikabel gelöst werden, durch den Einsatz des <a title="MSDN Artikel zum Microsoft Shadow Filter" href="http://msdn.microsoft.com/en-us/library/ms533086%28VS.85%29.aspx">Microsoft Shadow Filters</a>:
+
+<pre class="wide"><code>.shadow {
+	zoom: 1;
+	filter: progid:DXImageTransform.Microsoft.Shadow(color='#999999', Direction=0, Strength=3)
+	progid:DXImageTransform.Microsoft.Shadow(color='#999999', Direction=45, Strength=2)
+	progid:DXImageTransform.Microsoft.Shadow(color='#999999', Direction=90, Strength=3)
+	progid:DXImageTransform.Microsoft.Shadow(color='#999999', Direction=135, Strength=2)
+	progid:DXImageTransform.Microsoft.Shadow(color='#999999', Direction=180, Strength=3)
+	progid:DXImageTransform.Microsoft.Shadow(color='#999999', Direction=225, Strength=2)
+	progid:DXImageTransform.Microsoft.Shadow(color='#999999', Direction=260, Strength=3)
+	progid:DXImageTransform.Microsoft.Shadow(color='#999999', Direction=305, Strength=2);
+	-moz-box-shadow: 0 0 5px #222; /*Mozilla-basierte Browser (z.B. Firefox)*/
+	-webkit-box-shadow: 0 0 5px #222; /*WebKit-basierte Browser (z.B. Safari/Chrome)*/
+	box-shadow: 0 0 5px #222; /*CSS3 Standard*/
+}
+</code></pre>
+
+Nicht sonderlich elegant, aber auf diese Weise kann man die CSS3 box-shadow Eigenschaft annähernd identisch im IE emulieren–ohne überflüssiges Markup und Grafiken. Die zusätzliche Eigenschaft »zoom« ist notwendig, um diversen Darstellungsfehler vorzubeugen.
+
+Und so sieht das dann aus: <a href="http://lab.mariofink.de/experimente/boxShadow/" target="_blank">Onlinedemo im Labor</a>
+
+Erfolgreich getestet habe ich diese Methode im Internet Explorer 6, 7 und 8.
+
+<p class="update">
+<strong>Update:</strong><br>
+Bei Block-Elementen (div, section, p, etc.) muss eine Hintergrundfarbe definiert sein, damit sich der Schatten korrekt in alten IEs verhält.
+</p>
+
+Weiterführende Links zum Thema »CSS3 box-shadow«:
+
+* <a href="http://dev.w3.org/csswg/css3-background/#box-shadow">»box-shadow« Eigenschaft im W3C Spec</a>
+* <a title="Artikel auf css3.info" href="http://www.css3.info/preview/box-shadow/">Box-shadow, one of CSS3’s best new features</a>
+* <a title="auf westciv.com" href="http://www.westciv.com/tools/boxshadows/index.html">Box Shadows – CSS3 Spielwiese/Codegenerator</a>
+
+----
+
+tags: 
+
+----
+
+categories: Code

@@ -1,0 +1,27 @@
+﻿Title: JavaScript & DOM Debugging
+
+----
+
+Date: 02.01.2013
+
+----
+
+Categories: Werkzeuge
+
+----
+
+Text: Letzten November gab ich einen kurzen Vortrag beim [WebdevFulda Treffen](http://webdevfulda.de) über die Möglichkeiten, die aktuelle Browser beim Debuggen von Webseiten im allgemeinen und JavaScript im speziellen bieten.
+
+Auf folgende Themen bin ich etwas näher eingegangen:
+
+* Benutzung der Debugging-Funktionen (console.log etc.)
+* Schritt-für-Schritt Debugging
+* Conditional Breakpoints
+* DOM Breakpoints
+* DOM Inspektor und Live CSS Editor
+
+[Präsentation »JavaScript & DOM Debugging« anschauen](http://lab.mariofink.de/folien/webdevfulda/jsdebug.html)
+
+----
+
+Linkurl: 

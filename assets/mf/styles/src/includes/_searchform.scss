@@ -1,0 +1,21 @@
+#searchform {
+  input {
+    border: 1px solid darken(#efefef, 20%);
+    padding: 0.25em 1.5em 0.25em 0.5em;
+    width: 100%;
+    @include opacity(0.3);
+    @include transition-property(opacity);
+    @include transition-duration(0.2s);
+    &:focus {
+      @include opacity(0.9);
+      border-color: $primary-light;
+      outline: 0;
+    }
+    &:hover {
+      @include opacity(0.9);
+    }
+  }
+  button {
+    display: none;
+  }
+}

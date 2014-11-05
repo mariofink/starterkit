@@ -1,0 +1,26 @@
+﻿Title: Coworking in Fulda – die Office Factory
+
+----
+
+Description: 
+
+----
+
+Date: 13.04.2013
+
+----
+
+Categories: Aktuelles
+
+----
+
+Text: Seit einigen Monaten findet nun schon das [Fuldaer Webdevelopment Treffen](http://webdevfulda.de) in den Räumen der [Office Factory](http://www.office-factory.net) statt – meines Wissens der erste und einzige Coworking Space in
+ Fulda und Umgebung.
+
+Bereits ab 15€ pro Tag bekommt man dort einen warmen Platz für sein Notebook in angenehmer Atmosphäre inkl. Chillout-Ecke und Küche (irgendwo muss der Kaffee ja her kommen!). Darüber hinaus besteht auch die Möglichkeit ein Mietbüro zu buchen oder die Tagungsräume zu nutzen. Alles sehr flexibel und ohne lange Vorlaufzeiten.
+
+Hier ein kleiner Rundgang:
+
+<iframe width="560" height="315" src="http://www.youtube.com/embed/vzK7LN-Es-w" frameborder="0" allowfullscreen></iframe>
+
+Vielen Dank an Gerhard – dem Betreiber der [Office Factory](http://www.office-factory.net) – der an jedem ersten Mittwoch im Monat ein großartiger Gastgeber für [Fuldas Webentwickler](http://webdevfulda.de) ist.

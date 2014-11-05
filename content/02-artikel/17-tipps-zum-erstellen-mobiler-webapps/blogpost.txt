@@ -1,0 +1,29 @@
+﻿Title: Tipps zum Erstellen mobiler Web-Apps von den forecast.io Machern
+
+----
+
+Description: 
+
+----
+
+Date: 23.04.2013
+
+----
+
+Categories: Aktuelles
+
+----
+
+Text: **Wetter-Apps** — vermutlich gibt es Tausende davon!
+Kaum eine machte allerdings bisher so von sich reden wie [forecast.io](http://forecast.io/). 
+
+Der Grund: es handelt sich dabei um eine waschechte mobile Web-App. 
+Vom Prinzip eine *normale* Webseite, die allerdings so programmiert ist, dass man sie auf einem Smartphone oder Tablet nicht nur im Browser nutzen, sondern auch wie eine *echte* App installieren kann — ohne Umweg über einen App-Store.
+
+Auf dem dazugehörigen Blog teilen die Entwickler nun einige Lektionen, die sie während der Entwicklung lernen durften.
+
+> [It’s not a web app. It’s an app you install from the web.](http://blog.forecast.io/its-not-a-web-app-its-an-app-you-install-from-the-web/)
+
+Dabei wird klar: auch in Zeiten von HTML5 gibt es noch einige Unwegbarkeiten zu meistern, wenn man eine bestmögliche Nutzererfahrung auf einer größtmöglichen Anzahl von Endgeräten bieten möchte.
+
+Dass es sich gelohnt hat, zeigt ein einfacher Blick auf [forecast.io](http://forecast.io/) — egal ob vom Desktop, dem Tablet oder dem Smartphone.

@@ -1,0 +1,23 @@
+﻿Title: Appliness – digitales Magazin für Frontendentwickler
+
+----
+
+Date: 2012-09-07 16:56
+
+----
+
+Categories: Aktuelles
+
+----
+
+Text: <iframe src="http://www.youtube.com/embed/OfZi7wX3Jto?rel=0" frameborder="0" width="640" height="360"></iframe>
+
+Das neue iPad/Android Tablet Magazin <a href="http://appliness.com/">Appliness</a> richtet sich ganz konkret an Frontendentwickler. Dabei wird ein weites Themenspektrum abgedeckt: vom einsteigerfreundlichen Artikel über neue CSS3-Features bis hin zu detaillierten Abhandlungen über Node.js oder PhoneGap.
+
+Neben der hohen Qualität der Artikel von bekannten Gesichtern wie Christian Heilmann oder Paul Irish, kann auch das Layout überzeugen. Besonders erwähnenswert: Appliness ist nicht nur einfach ein “dummes” Magazin – es macht auch vom Tablet-Format regen Gebrauch in dem trockene Code-Schnipsel, direkt im Artikel eingebettet, per Browser zum Leben erweckt werden.
+
+Alle Ausgaben von Appliness gibt es als <a href="http://appliness.com/">kostenlosen Download für Apple’s iPad und Android Tablets</a>
+
+----
+
+Linkurl: 
