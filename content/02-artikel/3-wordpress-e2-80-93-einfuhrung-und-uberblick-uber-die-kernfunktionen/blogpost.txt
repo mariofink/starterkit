@@ -1,0 +1,31 @@
+title: Wordpress – Einführung und Überblick über die Kernfunktionen
+
+----
+
+date: 2011-02-09 13:59
+
+----
+
+text: 
+Im November letzten Jahres hielt ich einen kurzen Vortrag beim [Webdevelopment Fulda Treffen](http://webdevfulda.de) über die Blogging/CMS-Software »Wordpress«. Die dazu gehörige Präsentation vermittelt einen ersten Überblick über die Kernfunktionen von Wordpress und beinhaltet auch einige Pluginempfehlungen.
+
+<iframe src="http://www.slideshare.net/slideshow/embed_code/5688017" width="427" height="356" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen webkitallowfullscreen mozallowfullscreen> </iframe> 
+
+**Inhalt:**
+
+* Was ist Wordpress?
+* Warum Wordpress?
+* Kernfunktionen
+* Inhaltstypen
+* Wordpress Installation
+* Nützliche Plugins
+
+[Wordpress – Einführung und Überblick über die Kernfunktionen (auf SlideShare)](http://www.slideshare.net/mariofink/wordpress-5688017 "Präsentation ansehen")
+
+----
+
+tags: 
+
+----
+
+categories: Sonstiges
