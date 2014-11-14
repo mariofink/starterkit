@@ -1,12 +1,6 @@
-<?php 
-
-$articles = $pages->find('artikel')->children()->visible()->flip()->limit(10);
-
-snippet('feed', array(
-  'link'  => url('blog'),
-  'items' => $articles,
-  'descriptionField'  => 'text', 
-  'descriptionLength' => false
+<?php
+echo page('artikel')->children()->visible()->flip()->limit(10)->feed(array(
+  'title'       => $page->title(),
+  'description' => $page->description()
 ));
-
 ?>
