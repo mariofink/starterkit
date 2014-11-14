@@ -5,6 +5,7 @@
 
 # Site config
 /site/config/config.php
+.htaccess
 
 # Packages #
 ############
