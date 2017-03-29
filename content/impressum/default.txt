@@ -1,14 +1,13 @@
-﻿Title: Impressum
+Title: Impressum
 
 ----
 
 Text: Mario Fink
-Internet- und IT-Dienstleistungen
 Birxstr. 47
 DE – 36115 Ehrenberg
 
 Tel. +49 (0) 160 9470 3275
 
-eMail: kontakt@mariofink.de
+eMail: info@mariofink.de
 
 Inhaltlich verantwortlich gemäß §6 MDStV: Mario Fink

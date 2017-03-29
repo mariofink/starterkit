@@ -2,14 +2,12 @@ Title: Kontakt
 
 ----
 
-Text:
-
-Mario Fink
+Text: Mario Fink
 Birxstr. 47
 36115 Ehrenberg
 
 Tel 0160 9470 3275
 
-Schreib mir was: <kontakt@mariofink.de>
+Schreib mir was: <info@mariofink.de>
 
 Twitter: @mariofink
