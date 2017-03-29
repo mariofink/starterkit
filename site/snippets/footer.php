@@ -13,8 +13,8 @@
         </section>
         <ul class="contact">
             <li>
-                <a href='m&#97;i&#108;&#116;o&#58;ko%&#54;E%&#55;4&#97;&#107;&#116;%&#52;&#48;m&#97;&#114;%6&#57;&#111;%&#54;6i%6Ek&#46;d&#101;'>
-                    <span class="caption">&#107;&#111;&#110;&#116;&#97;&#107;&#116;&#64;&#109;&#97;&#114;&#105;&#111;&#102;&#105;&#110;&#107;&#46;&#100;&#101;</span><span class="icon icon-mail"></span>
+                <a href='mailto:info@mariofink.de'>
+                    <span class="caption">info@mariofink.de</span><span class="icon icon-mail"></span>
                 </a>
             </li>
             <li>
